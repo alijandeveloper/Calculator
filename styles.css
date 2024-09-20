@@ -14,43 +14,50 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(45deg, black, gray);
+    background-color: #F7EFE5;
 }
 .calculator {
-    border:  1px solid #717377;
+    border: 1px solid rgb(7, 7, 7);
     padding: 20px;
-    border-radius: 16px;
-    background: transparent;
-    box-shadow: 0px 3px 15px rgba(133, 115, 119, 0.5);
+    border-radius: 26px;
+    background: #141E46;
+    box-shadow: 0px 8px 15px rgba(58, 55, 55, 0.5),
+    0px -8px -15px rgba(58, 55, 55, 0.5);
 }
 input {
-    width: 320px;
+    width: 300px;
     border: none;
+    outline: none;
+    border-radius: 14px;
     padding: 24px;
     margin: 10px;
-    background: transparent;
-    box-shadow: 0px 3px 15px rgba(84, 84, 84, 0.1);
+    background-color: #F7EFE5;
+    box-shadow: 0px 9px 15px rgba(84, 84, 84, 0.1);
     font-size: 40px;
     text-align: right;
-    cursor: pointer;;
+    cursor: pointer;
+    color: black;
 }
 input::placeholder {
-    color: white;
+    color: black;
 }
 
 button {
     border: none;
-    width: 60px;
-    height: 60px;
+    width: 55px;
+    height: 55px;
     margin: 10px;
-    border-radius: 22px;
-    background: transparent;
-    color: white;
-    font-size: 20px;
+    border-radius: 12px;
+    background-color: rgb(214, 211, 211);
+    color: black;
+    font-size: 17px;
+    cursor: pointer;
 }
 .equal {
     background-color: rgb(245, 83, 25);
+    color: white;
 }
 .oprator {
-    color: rgb(60, 255, 0);
+    color: rgb(255, 255, 255);
+    background-color: #00b5fd;
 }
